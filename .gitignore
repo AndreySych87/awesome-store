@@ -28,6 +28,15 @@ var/
 .installed.cfg
 *.egg
 
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -78,3 +87,12 @@ settings/local.py
 # | this will ignore the content but not the director itself.  |
 # +------------------------------------------------------------+
 !**/.gitkeep
+
+# Local History for Visual Studio Code
+.history/
+.idea/
+.vscode/
+public/*
+private/warranty_certificate/*
+data/*
+logs/*
